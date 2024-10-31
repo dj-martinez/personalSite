@@ -1,0 +1,1 @@
+This project is for Fullstack Academy titled "Personal Site." We are practicing how to make our own site for portfolio practice. We are required to have three pages: Home, About, and Portfolio. Aside from buidling it, we also need to stylize. 
