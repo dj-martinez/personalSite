@@ -1,0 +1,91 @@
+nav {
+  background-color: hotpink;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+a {
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+h2 {
+    font-size: revert;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/* main page image  */
+img {
+  float: right;
+  width: 40%;
+  margin-top: 50px;
+}
+
+main {
+  min-height: 100vh;
+  box-shadow: 0 0 12px -2px darkgray;
+  padding: 85px 24px 96px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(255, 226, 230);
+  box-shadow: 0 0 12px -2px black;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main .quote {
+  font-family: fantasy;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-top: 5em;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+h3 {
+  font-size: medium;
+}
+
+.about-section img {
+  float: right;
+  width: 15%;
+  margin: 10px;
+  padding: 1%;
+}
+
+.about-section {
+  margin: 2em auto;
+  padding: 1em
+}
+
+.projects {
+  margin: 2em auto;
+  padding: 1em
+}
+
+.projects img {
+  float: right;
+  width: 40%;
+  margin-top: -100px;
+}
