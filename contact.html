@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dafne Martinez</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <h1 style="margin-left: 15px !important">Dafne J. Martinez</h1>
+      </div>
+      <div id="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <h1 style="font-size: xxx-large">Contact Me!</h1>
+      <!-- <h1>Contact Me!</h1> -->
+      <form action="success.html" id="contactForm">
+        <div>
+          <label for="firstName">First Name:</label>
+          <br />
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="lastName">Last Name:</label>
+          <br />
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="message">Message:</label>
+          <br />
+          <textarea
+            id="message"
+            id="message"
+            name="message"
+            rows="6"
+            cols="50"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+
+        <button id="submit" type="submit">Submit!</button>
+      </form>
+    </main>
+  </body>
+</html>
